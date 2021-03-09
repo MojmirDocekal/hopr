@@ -1,5 +1,13 @@
 # The Very Basics {#basics}
 
+## Stats
+
+- why?
+- the case of [Harold Shipman](https://en.wikipedia.org/wiki/Harold_Shipman)
+- [chap1](../art_of_statistics_chap1-2.pdf)
+
+## Back to R
+
 This chapter provides a broad overview of the R language that will get you programming right away. In it, you will build a pair of virtual dice that you can use to generate random numbers. Don't worry if you've never programmed before; the chapter will teach you everything you need to know. 
 
 To simulate a pair of dice, you will have to distill each die into its essential features. You cannot place a physical object, like a die, into a computer (well, not without unscrewing some screws), but you can save _information_ about the object in your computer's memory.
