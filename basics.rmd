@@ -287,6 +287,36 @@ Don't worry if you're not familiar with these operations. They are easy to look 
 
 Now that you can do math with your `die` object, let's look at how you could "roll" it. Rolling your die will require something more sophisticated than basic arithmetic; you'll need to randomly select one of the die's values. And for that, you will need a _function_.
 
+## Vectors, matrices, data frames
+
+- let's create two vectors of numbers
+
+```{r}
+vec1 <- sample(1:6, replace = TRUE)
+vec2 <- sample(1:6, replace = FALSE)
+```
+
+- combine them into matrirx:
+
+```{r}
+mat1 <- cbind(vec1, vec2)
+mat1
+```
+
+- and combine it with the vector of strings
+
+```{r}
+subj <- rep(c('subj1','subj2'), times=3)
+subj
+```
+- and now dataframe
+
+```{r}
+df <- cbind.data.frame(subj, vec1, vec2)
+df
+```
+
+
 ## Functions
 
 R comes with many functions that you can use to do sophisticated tasks like random sampling. For example, you can round a number with the `round` function, or calculate its factorial with the `factorial` function. Using a function is pretty simple. Just write the name of the function and then the data you want the function to operate on in parentheses: 
